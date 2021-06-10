@@ -1,0 +1,618 @@
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+  margin: 0rem;
+}
+.container_om_mig {
+  display: flex;
+  flex-wrap: wrap;
+}
+.container_om_mig img {
+  display: flex;
+  width: 35rem;
+  top: 1rem;
+  margin-left: 23rem;
+  border-radius: 1rem;
+  position: relative;
+}
+.container_om_mig h3 {
+  position: relative;
+  top: -30rem;
+  left: -15rem;
+  width: 20rem;
+}
+#om_mig2 {
+  position: relative;
+  top: -58rem;
+  left: 50rem;
+  width: 20rem;
+  background-color: white;
+  border-radius: 1rem;
+  color: rgb(110, 81, 81);
+  letter-spacing: 0.1rem;
+  line-height: 2rem;
+}
+#om_mig3 {
+  position: relative;
+  top: -42rem;
+  left: 22rem;
+  width: 20rem;
+  background-color: white;
+  border-radius: 1rem;
+  color: rgb(110, 81, 81);
+  letter-spacing: 0.1rem;
+  line-height: 2rem;
+}
+
+h1 {
+  display: inline-block;
+  text-align: center;
+  letter-spacing: 0.1rem;
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
+  font-family: sans-serif;
+  gap: 1rem;
+  margin: 2;
+  transform: none;
+  list-style: none;
+  margin-left: 2rem;
+}
+
+h2 {
+  display: grid;
+  text-align: center;
+  letter-spacing: 0.1rem;
+  font-size: 2rem;
+  color: rgb(245, 245, 245);
+
+  font-family: sans-serif;
+  background-image: url(port.png);
+  max-width: 15rem;
+  padding: 2rem;
+  border-radius: 0rem 1rem 1rem 0rem;
+}
+
+h2:hover {
+  transform: scale(110%);
+  transition: 2s;
+}
+
+h3 {
+  text-align: center;
+  letter-spacing: 0.1rem;
+  font-size: 1rem;
+  color: rgb(255, 255, 255);
+  font-family: sans-serif;
+  gap: 1rem;
+  margin: 2;
+  transform: none;
+  list-style: none;
+}
+
+h4 {
+  text-align: center;
+  letter-spacing: 0.1rem;
+  font-size: 1.5rem;
+  color: rgb(116, 89, 89);
+  font-family: sans-serif;
+  gap: 1rem;
+  margin: 2;
+  transform: none;
+  list-style: none;
+  display: grid;
+}
+
+#first_section .section_wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 1rem;
+}
+#section2 {
+  color: rgb(110, 81, 81);
+
+  padding: 1rem;
+  background-color: rgb(255, 255, 255);
+  border-radius: 1rem;
+}
+#section2 p {
+  text-align: center;
+  letter-spacing: 0.1rem;
+  font-size: 0.8rem;
+  color: rgb(110, 81, 81);
+
+  font-family: sans-serif;
+  gap: 1rem;
+  margin: 2;
+  display: grid;
+  text-transform: uppercase;
+  line-height: 2rem;
+  border-radius: 1rem;
+}
+
+#section5 img {
+  margin-left: 1rem;
+  width: 50%;
+  border-radius: 1rem;
+}
+#section6 img {
+  margin-left: 1rem;
+  width: 90%;
+  border-radius: 1rem;
+}
+#section7 img {
+  margin-left: 1rem;
+  width: 95%;
+  border-radius: 1rem;
+}
+
+.splash {
+  max-width: 200rem;
+  height: 50rem;
+  position: relative;
+  background-image: url(port.png);
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+}
+.centered2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+}
+.splash h1 {
+  font-size: 2rem;
+  background-color: rgb(110, 81, 81, 0.8);
+  padding: 3rem;
+  border-radius: 1rem;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.pulse {
+  animation-name: pulse;
+}
+
+.splash h3 {
+  background-color: transparent;
+  animation: pulse 1s infinite;
+  margin-left: 5rem;
+}
+
+.splash a {
+  text-decoration: none;
+}
+
+.splash h1:hover {
+  transform: scale(110%);
+  transition: 0.5s;
+}
+
+#whitespace {
+  padding-top: 2rem;
+}
+#section3 {
+  color: rgb(110, 81, 81);
+
+  padding: 1rem;
+  background-color: rgb(255, 255, 255);
+  border-radius: 1rem;
+}
+#section3 p {
+  text-align: center;
+  letter-spacing: 0.1rem;
+  font-size: 0.8rem;
+  color: rgb(110, 81, 81);
+
+  font-family: sans-serif;
+  gap: 1rem;
+  margin: 2;
+  display: grid;
+
+  text-transform: uppercase;
+  line-height: 2rem;
+}
+#section4 {
+  color: rgb(110, 81, 81);
+
+  padding: 1rem;
+  background-color: rgb(255, 255, 255);
+  border-radius: 1rem;
+  margin-bottom: 5rem;
+}
+#section4 p {
+  text-align: center;
+  letter-spacing: 0.1rem;
+  font-size: 0.8rem;
+  color: rgb(110, 81, 81);
+
+  font-family: sans-serif;
+  gap: 1rem;
+  margin: 2;
+  display: grid;
+
+  text-transform: uppercase;
+  line-height: 2rem;
+}
+
+body {
+  margin: 0rem;
+  hyphens: auto;
+  line-height: 1.5;
+  display: grid;
+  background-color: rgb(112, 91, 91);
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+
+  transition: top 0.3s;
+
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  align-items: center;
+  background-color: black;
+  color: rgb(153, 140, 140);
+}
+
+header a {
+  text-align: center;
+
+  display: inline-block;
+  text-transform: capitalize;
+  letter-spacing: 0.1rem;
+  font-size: 0.8rem;
+  margin: 0.1rem;
+  text-decoration: none;
+  color: white;
+  font-family: sans-serif;
+}
+
+nav #menu {
+  gap: 1rem;
+  margin: 0;
+  padding: 0.5rem;
+  transform: none;
+  list-style: none;
+}
+
+#menuknap {
+  font-family: "Open Sans", sans-serif;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 0.2rem;
+  letter-spacing: 0.1rem;
+
+  margin: 0rem;
+  padding: 0.5rem;
+  color: white;
+  background-color: gray;
+}
+
+#menuknap:hover {
+  background: gray;
+  color: white;
+}
+
+#menu li a:hover {
+  background: var(--color7);
+  color: var(--color3);
+  border-radius: 0.2rem;
+}
+
+#menu li {
+  white-space: nowrap;
+}
+
+.hidden {
+  display: none;
+  transition: 0.3s ease;
+}
+
+@media (max-width: 499px) {
+  #om_mig2 {
+    position: relative;
+    top: 1rem;
+    left: 0rem;
+    width: 20rem;
+    background-color: white;
+    border-radius: 1rem;
+    color: rgb(110, 81, 81);
+    letter-spacing: 0.1rem;
+    line-height: 2rem;
+  }
+  #om_mig3 {
+    position: relative;
+    top: 2rem;
+    left: 0rem;
+    width: 20rem;
+    background-color: white;
+    border-radius: 1rem;
+    color: rgb(110, 81, 81);
+    letter-spacing: 0.1rem;
+    line-height: 2rem;
+  }
+  #om_mig {
+    margin: 2rem;
+    line-height: 2rem;
+    border-radius: 1rem;
+    background-color: rgb(255, 255, 255);
+    color: rgb(82, 60, 60);
+  }
+  .container_om_mig img {
+    width: 20rem;
+    left: -19rem;
+    top: 0rem;
+  }
+  .container_om_mig #om_mig {
+    background-color: white;
+    color: rgb(82, 60, 60);
+    top: -1rem;
+    left: 0rem;
+  }
+
+  .splash {
+    background-image: url(port.png);
+  }
+
+  .centered {
+    position: absolute;
+    top: 15rem;
+    left: 13rem;
+    transform: translate(-50%, -100%);
+  }
+  .centered2 {
+    position: absolute;
+    top: 16rem;
+    left: 8.2rem;
+    transform: translate(-50%, -20%);
+  }
+  .splash h1 {
+    font-size: 1rem;
+    background-color: rgb(110, 81, 81, 0.8);
+    padding: 1.5rem;
+    border-radius: 1rem;
+  }
+
+  .splash h3 {
+    background-color: transparent;
+    animation: pulse 1s infinite;
+    font-size: 0.7rem;
+    width: 100%;
+  }
+
+  .splash a {
+    text-decoration: none;
+  }
+}
+
+p {
+  font-size: 0.9rem;
+}
+
+h3 {
+  font-size: 1rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  padding: 1rem;
+  padding-top: 1rem;
+  background-color: black;
+}
+#om_mig {
+  margin-top: 4rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  padding: 1rem;
+  padding-top: 1rem;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown #knap {
+  margin: 0;
+}
+
+.dropdown_button {
+  padding: 1vw;
+  background-color: lightgrey;
+  color: black;
+}
+
+.dropdown_content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 5rem;
+  box-shadow: 0vw 2vw 3vw 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown_content a {
+  color: black;
+  padding: 1rem 1rem;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown_content p {
+  font-size: 0.7rem;
+  display: inline;
+}
+.dropdown:hover .dropdown_content {
+  display: block;
+}
+
+@media (min-width: 700px) {
+  #om_mig2 {
+    position: relative;
+    top: 1rem;
+    left: 0rem;
+    width: 20rem;
+    background-color: white;
+    border-radius: 1rem;
+    color: rgb(110, 81, 81);
+    letter-spacing: 0.1rem;
+    line-height: 2rem;
+  }
+  #om_mig3 {
+    position: relative;
+    top: 2rem;
+    left: 0rem;
+    width: 20rem;
+    background-color: white;
+    border-radius: 1rem;
+    color: rgb(110, 81, 81);
+    letter-spacing: 0.1rem;
+    line-height: 2rem;
+  }
+  nav {
+    display: contents;
+  }
+
+  nav #menu {
+    flex-basis: 0;
+  }
+
+  header ul {
+    display: flex;
+  }
+
+  #menuknap {
+    display: none;
+  }
+
+  .hidden {
+    display: flex;
+  }
+
+  #om_mig {
+    margin: 2rem;
+    margin-top: 5rem;
+    line-height: 2rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1rem;
+  }
+
+  .splash {
+    background-image: url(port.png);
+  }
+
+  .centered {
+    position: absolute;
+    top: 24rem;
+    left: 22rem;
+    transform: translate(-50%, -100%);
+  }
+  .centered2 {
+    position: absolute;
+    top: 25rem;
+    left: 17.5rem;
+    transform: translate(-50%, -20%);
+  }
+  .splash h1 {
+    font-size: 2rem;
+    background-color: rgb(110, 81, 81, 0.8);
+    padding: 3rem;
+    border-radius: 1rem;
+  }
+
+  .splash h3 {
+    background-color: transparent;
+    animation: pulse 1s infinite;
+    font-size: 0.7rem;
+    width: 100%;
+  }
+}
+
+@media (min-width: 996px) {
+  #om_mig2 {
+    position: relative;
+    top: -58rem;
+    left: 50rem;
+    width: 20rem;
+    background-color: white;
+    border-radius: 1rem;
+    color: rgb(110, 81, 81);
+    letter-spacing: 0.1rem;
+    line-height: 2rem;
+  }
+  #om_mig3 {
+    position: relative;
+    top: -42rem;
+    left: 22rem;
+    width: 20rem;
+    background-color: white;
+    border-radius: 1rem;
+    color: rgb(110, 81, 81);
+    letter-spacing: 0.1rem;
+    line-height: 2rem;
+  }
+  header a {
+    margin: 0.2rem 1rem 0.2rem 1rem;
+  }
+
+  nav #menu {
+    padding-right: 1rem;
+  }
+  #om_mig {
+    margin: 2rem;
+    line-height: 2rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    border-radius: 1rem;
+    background-color: white;
+    color: rgb(82, 60, 60);
+  }
+
+  .splash {
+    max-width: 200rem;
+    height: 50rem;
+    position: relative;
+    background-image: url(port.png);
+  }
+
+  .centered {
+    position: absolute;
+    top: 20rem;
+    left: 39rem;
+    transform: translate(-50%, -100%);
+  }
+  .centered2 {
+    position: absolute;
+    top: 21rem;
+    left: 34rem;
+    transform: translate(-50%, -20%);
+  }
+  .splash h1 {
+    font-size: 2rem;
+    background-color: rgb(110, 81, 81, 0.8);
+    padding: 3rem;
+    border-radius: 1rem;
+  }
+}
