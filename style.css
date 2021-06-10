@@ -10,7 +10,7 @@ html {
 .container_om_mig img {
   display: flex;
   width: 35rem;
-  top: 1rem;
+  top: 2rem;
   margin-left: 23rem;
   border-radius: 1rem;
   position: relative;
@@ -20,6 +20,8 @@ html {
   top: -30rem;
   left: -15rem;
   width: 20rem;
+  font-size: 0.8rem;
+  text-align: center;
 }
 #om_mig2 {
   position: relative;
@@ -31,6 +33,7 @@ html {
   color: rgb(110, 81, 81);
   letter-spacing: 0.1rem;
   line-height: 2rem;
+  font-size: 0.8rem;
 }
 #om_mig3 {
   position: relative;
@@ -42,6 +45,7 @@ html {
   color: rgb(110, 81, 81);
   letter-spacing: 0.1rem;
   line-height: 2rem;
+  font-size: 0.8rem;
 }
 
 h1 {
@@ -220,11 +224,12 @@ h4 {
 
   font-family: sans-serif;
   gap: 1rem;
-  margin: 2;
+  margin: 2rem;
   display: grid;
 
   text-transform: uppercase;
   line-height: 2rem;
+  text-align: left;
 }
 #section4 {
   color: rgb(110, 81, 81);
@@ -242,11 +247,12 @@ h4 {
 
   font-family: sans-serif;
   gap: 1rem;
-  margin: 2;
+  margin: 2rem;
   display: grid;
 
   text-transform: uppercase;
   line-height: 2rem;
+  text-align: left;
 }
 
 body {
