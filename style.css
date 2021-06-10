@@ -9,20 +9,27 @@ html {
 }
 .container_om_mig img {
   display: flex;
-  width: 35rem;
+  width: 36.2rem;
   top: 2rem;
-  margin-left: 23rem;
+  margin-left: 12rem;
   border-radius: 1rem;
   position: relative;
 }
 .container_om_mig h3 {
   position: relative;
-  top: -30rem;
+  top: -29rem;
   left: -15rem;
   width: 20rem;
   font-size: 0.8rem;
   text-align: center;
 }
+
+#om_mig_overskrift {
+  height: 0.9rem;
+  padding: 2rem;
+  max-width: 10rem;
+}
+
 #om_mig2 {
   position: relative;
   top: -58rem;
@@ -66,13 +73,13 @@ h2 {
   display: grid;
   text-align: center;
   letter-spacing: 0.1rem;
-  font-size: 2rem;
+  font-size: 1.2rem;
   color: rgb(245, 245, 245);
 
   font-family: sans-serif;
   background-image: url(port.png);
-  max-width: 15rem;
-  padding: 2rem;
+  max-width: 10rem;
+  padding: 1rem;
   border-radius: 0rem 1rem 1rem 0rem;
 }
 
@@ -300,24 +307,24 @@ nav #menu {
 }
 
 #menuknap {
-  font-family: "Open Sans", sans-serif;
+  font-family: sans-serif;
   border: none;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 1rem;
+  font-size: 0.9rem;
   cursor: pointer;
   border-radius: 0.2rem;
   letter-spacing: 0.1rem;
 
   margin: 0rem;
-  padding: 0.5rem;
+  padding: 0.9rem;
   color: white;
-  background-color: gray;
+  background-color: rgb(95, 74, 74);
 }
 
 #menuknap:hover {
-  background: gray;
+  background: rgb(114, 91, 91);
   color: white;
 }
 
@@ -334,83 +341,6 @@ nav #menu {
 .hidden {
   display: none;
   transition: 0.3s ease;
-}
-
-@media (max-width: 499px) {
-  #om_mig2 {
-    position: relative;
-    top: 1rem;
-    left: 0rem;
-    width: 20rem;
-    background-color: white;
-    border-radius: 1rem;
-    color: rgb(110, 81, 81);
-    letter-spacing: 0.1rem;
-    line-height: 2rem;
-  }
-  #om_mig3 {
-    position: relative;
-    top: 2rem;
-    left: 0rem;
-    width: 20rem;
-    background-color: white;
-    border-radius: 1rem;
-    color: rgb(110, 81, 81);
-    letter-spacing: 0.1rem;
-    line-height: 2rem;
-  }
-  #om_mig {
-    margin: 2rem;
-    line-height: 2rem;
-    border-radius: 1rem;
-    background-color: rgb(255, 255, 255);
-    color: rgb(82, 60, 60);
-  }
-  .container_om_mig img {
-    width: 20rem;
-    left: -19rem;
-    top: 0rem;
-  }
-  .container_om_mig #om_mig {
-    background-color: white;
-    color: rgb(82, 60, 60);
-    top: -1rem;
-    left: 0rem;
-  }
-
-  .splash {
-    background-image: url(port.png);
-  }
-
-  .centered {
-    position: absolute;
-    top: 15rem;
-    left: 13rem;
-    transform: translate(-50%, -100%);
-  }
-  .centered2 {
-    position: absolute;
-    top: 16rem;
-    left: 8.2rem;
-    transform: translate(-50%, -20%);
-  }
-  .splash h1 {
-    font-size: 1rem;
-    background-color: rgb(110, 81, 81, 0.8);
-    padding: 1.5rem;
-    border-radius: 1rem;
-  }
-
-  .splash h3 {
-    background-color: transparent;
-    animation: pulse 1s infinite;
-    font-size: 0.7rem;
-    width: 100%;
-  }
-
-  .splash a {
-    text-decoration: none;
-  }
 }
 
 p {
@@ -471,6 +401,85 @@ h3 {
 .dropdown:hover .dropdown_content {
   display: block;
 }
+
+@media (max-width: 499px){
+  #om_mig2 {
+    position: relative;
+    top: 1rem;
+    left: 1rem;
+    width: 20rem;
+    background-color: white;
+    border-radius: 1rem;
+    color: rgb(110, 81, 81);
+    letter-spacing: 0.1rem;
+    line-height: 2rem;
+  }
+  #om_mig3 {
+    position: relative;
+    top: 2rem;
+    left: 1rem;
+    width: 20rem;
+    background-color: white;
+    border-radius: 1rem;
+    color: rgb(110, 81, 81);
+    letter-spacing: 0.1rem;
+    line-height: 2rem;
+  }
+  #om_mig {
+    margin: 2rem;
+    line-height: 2rem;
+    border-radius: 1rem;
+    background-color: rgb(255, 255, 255);
+    color: rgb(82, 60, 60);
+    left: 1rem;
+  }
+  .container_om_mig img {
+    width: 20rem;
+    left: -7rem;
+    top: 0rem;
+  }
+  .container_om_mig #om_mig {
+    background-color: white;
+    color: rgb(82, 60, 60);
+    top: -1rem;
+    left: 2rem;
+  }
+
+  .splash {
+    background-image: url(port.png);
+  }
+
+  .centered {
+    position: absolute;
+    top: 15rem;
+    left: 13rem;
+    transform: translate(-50%, -100%);
+  }
+  .centered2 {
+    position: absolute;
+    top: 16rem;
+    left: 8.2rem;
+    transform: translate(-50%, -20%);
+  }
+  .splash h1 {
+    font-size: 1rem;
+    background-color: rgb(110, 81, 81, 0.8);
+    padding: 1.5rem;
+    border-radius: 1rem;
+  }
+
+  .splash h3 {
+    background-color: transparent;
+    animation: pulse 1s infinite;
+    font-size: 0.7rem;
+    width: 100%;
+  }
+
+  .splash a {
+    text-decoration: none;
+  }
+}
+
 
 @media (min-width: 700px) {
   #om_mig2 {
