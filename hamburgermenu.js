@@ -14,9 +14,9 @@ function toggleMenu() {
   let erSkjult = document.querySelector('#menu').classList.contains('hidden');
 
   if (erSkjult == true) {
-    document.querySelector('#menuknap').textContent = 'Menu';
+    document.querySelector('#menuknap').textContent = 'MENU';
   } else {
-    document.querySelector('#menuknap').textContent = 'Close';
+    document.querySelector('#menuknap').textContent = 'CLOSE';
   }
 }
 

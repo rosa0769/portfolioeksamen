@@ -112,6 +112,22 @@ h4 {
   list-style: none;
   display: grid;
 }
+footer {
+  background-color: black;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+footer p {
+  text-align: center;
+
+  display: inline-block;
+  letter-spacing: 0.1rem;
+  font-size: 0.8rem;
+  color: white;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
 
 #first_section .section_wrapper {
   display: grid;
@@ -151,6 +167,19 @@ h4 {
   border-radius: 1rem;
 }
 #section7 img {
+  margin-left: 1rem;
+  width: 95%;
+  border-radius: 1rem;
+}
+
+#section7 .col_right2 {
+  width: 95%;
+  display: flex;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+#section8 img {
   margin-left: 1rem;
   width: 95%;
   border-radius: 1rem;
@@ -259,7 +288,7 @@ h4 {
 
   text-transform: uppercase;
   line-height: 2rem;
-  text-align: left;
+  text-align: center;
 }
 
 body {
@@ -381,14 +410,14 @@ h3 {
 .dropdown_content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: rgb(255, 255, 255);
   min-width: 5rem;
   box-shadow: 0vw 2vw 3vw 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
 .dropdown_content a {
-  color: black;
+  color: rgb(80, 66, 66);
   padding: 1rem 1rem;
   text-decoration: none;
   display: block;
@@ -396,13 +425,28 @@ h3 {
 
 .dropdown_content p {
   font-size: 0.7rem;
-  display: inline;
 }
 .dropdown:hover .dropdown_content {
   display: block;
 }
 
-@media (max-width: 499px){
+.dropdown_content a:hover {
+  color: rgb(196, 189, 189);
+}
+
+@media (max-width: 499px) {
+  footer {
+    margin-top: 5rem;
+    padding-left: 2rem;
+  }
+
+  footer p {
+    font-size: 0.5rem;
+    max-width: 1rem;
+    display: flex;
+    margin: 1rem;
+  }
+
   #om_mig2 {
     position: relative;
     top: 1rem;
@@ -478,8 +522,12 @@ h3 {
   .splash a {
     text-decoration: none;
   }
-}
 
+  .col_left h4 {
+    width: 15rem;
+    font-size: 0.8rem;
+  }
+}
 
 @media (min-width: 700px) {
   #om_mig2 {
