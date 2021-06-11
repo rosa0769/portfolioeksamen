@@ -166,6 +166,10 @@ footer p {
   width: 90%;
   border-radius: 1rem;
 }
+
+#section6 .col_right2 {
+  width: 100%;
+}
 #section7 img {
   margin-left: 1rem;
   width: 95%;
@@ -276,7 +280,6 @@ footer p {
   margin-bottom: 5rem;
 }
 #section4 p {
-  text-align: center;
   letter-spacing: 0.1rem;
   font-size: 0.8rem;
   color: rgb(110, 81, 81);
@@ -288,7 +291,7 @@ footer p {
 
   text-transform: uppercase;
   line-height: 2rem;
-  text-align: center;
+  text-align: left;
 }
 
 body {
@@ -374,6 +377,27 @@ nav #menu {
 
 p {
   font-size: 0.9rem;
+}
+.col_right2 p {
+  font-family: sans-serif;
+  color: rgb(216, 189, 189);
+font-size: 2rem;
+text-align: center;
+margin: 0rem;
+padding: 0rem;
+padding-top: 1rem;
+text-align: center;
+letter-spacing: 0.1rem;
+font-size: 0.8rem;
+
+font-family: sans-serif;
+gap: 1rem;
+margin: 0.5rem;
+display: grid;
+
+text-transform: uppercase;
+line-height: 2rem;
+
 }
 
 h3 {
@@ -526,6 +550,22 @@ h3 {
   .col_left h4 {
     width: 15rem;
     font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 500px) {
+  .splash h1 {
+    font-size: 1rem;
+    background-color: rgb(110, 81, 81, 0.8);
+    padding: 2rem;
+    border-radius: 1rem;
+  }
+
+  .splash h3 {
+    background-color: transparent;
+    animation: pulse 1s infinite;
+    font-size: 0.7rem;
+    width: 100%;
   }
 }
 
