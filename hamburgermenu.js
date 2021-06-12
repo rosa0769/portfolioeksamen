@@ -1,8 +1,9 @@
-'use strict';
 
 window.addEventListener('load', sidenVises);
 
 function sidenVises() {
+    'use strict';
+
   console.log('sidenVises');
   document.querySelector('#menuknap').addEventListener('click', toggleMenu);
 }
@@ -14,9 +15,9 @@ function toggleMenu() {
   let erSkjult = document.querySelector('#menu').classList.contains('hidden');
 
   if (erSkjult == true) {
-    document.querySelector('#menuknap').textContent = 'Menu';
+    document.querySelector('#menuknap').textContent = 'MENU';
   } else {
-    document.querySelector('#menuknap').textContent = 'Close';
+    document.querySelector('#menuknap').textContent = 'CLOSE';
   }
 }
 
