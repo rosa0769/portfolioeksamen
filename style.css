@@ -3,6 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+  margin: 0rem;
+}
 article {
   background-color: rgb(175, 153, 153);
   border-radius: 1rem;
@@ -13,12 +18,6 @@ img {
   max-width: 100%;
   height: auto;
   border-radius: 1rem;
-}
-
-html {
-  scroll-behavior: smooth;
-  scroll-padding-top: 5rem;
-  margin: 0rem;
 }
 
 body {
@@ -67,7 +66,6 @@ p {
   line-height: 2;
   text-transform: lowercase;
   letter-spacing: 0.1rem;
-  
 }
 
 a {
@@ -81,7 +79,7 @@ a {
 
 #knap {
   background: gray;
-  color: var(--color7);
+  color: rgb(102, 83, 83);
   padding: 0.1rem 0.5rem;
   text-align: center;
   text-decoration: none;
@@ -93,12 +91,12 @@ a {
 }
 
 #knap:hover {
-  background: white;
+  background: rgb(102, 83, 83);
   color: rgb(102, 83, 83);
 }
 
 #knap p {
-  color: var(--color7);
+  color: rgb(102, 83, 83);
 }
 
 header {
@@ -106,7 +104,6 @@ header {
   top: 0;
   z-index: 100;
 
-  /* En del af: Skjult menu ved scroll */
   width: 100%;
   transition: top 0.3s;
 
@@ -135,7 +132,7 @@ header a {
 nav #menu {
   gap: 1rem;
   margin: 0;
-  padding: 0.5rem;
+  padding: 1rem;
   transform: none;
   list-style: none;
 
@@ -144,7 +141,7 @@ nav #menu {
 }
 
 #menuknap {
-  font-family: "Open Sans", sans-serif;
+  font-family: sans-serif;
   border: none;
   text-align: center;
   text-decoration: none;
@@ -155,20 +152,18 @@ nav #menu {
 
   margin: 0rem;
   padding: 0.3rem;
-  background: var(--color3);
-  color: var(--color7);
-  border: 0.1rem solid var(--color7);
+  background: var(rgb(102, 83, 83));
+  color: rgb(102, 83, 83);
 }
 
 #menuknap:hover {
-  background: var(--color7);
-  color: var(--color3);
-  border: 0.15rem solid var(--color3);
+  background-color: rgb(102, 83, 83);
+  color: black;
 }
 
 #menu li a:hover {
-  background: var(--color7);
-  color: rgb(102, 83, 83);
+  background: rgb(136, 114, 114);
+  color: black;
   border-radius: 0.2rem;
 }
 
@@ -178,83 +173,19 @@ nav #menu {
 
 .hidden {
   display: none;
-  /*transition: 0.3s ease;*/
 }
-
-/* Menu end */
-
-/*Footer start */
-#right img {
-  width: 5vw;
-}
-
-#left img {
-  width: 7vw;
-}
-
-footer {
-  background-color: black;
-  color: white;
-  font-family: sans-serif;
-  display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-  align-items: center;
-  text-align: center;
-  padding-left: 7vw;
-  padding-right: 7vw;
-  padding-bottom: 1rem;
-  padding-top: 1rem;
-}
-
-#right,
-#left {
-  display: flex;
-  gap: 2vw;
-}
-
-#right {
-  justify-content: right;
-}
-
-#visa {
-  padding-top: 1vw;
-}
-
-#middle {
-  padding-top: 1vw;
-  padding-bottom: 1vw;
-}
-
-/*Footer end*/
-
-@media (min-width: 500px) {
-  #right img {
-    width: 3vw;
-  }
-
-  #left img {
-    width: 5vw;
-  }
-
-  #visa {
-    padding-top: 0.5vw;
-  }
-}
+ 
 
 @media (min-width: 500px) {
   p {
-    /*font-family: "Open Sans", sans-serif;
-      font-weight: lighter;*/
     font-size: 1.1vw;
   }
 
   h3 {
-    /*font-family: "Roboto Mono", monospace;*/
     font-size: 3vw;
   }
 
   h2 {
-    /*font-family: "Roboto Mono", monospace;*/
     font-size: 3vw;
   }
 }
@@ -380,7 +311,7 @@ h3 {
 @media (min-width: 500px) {
   #second_section,
   #third_section {
-    display: grid;
+    display: flex;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     gap: 1vw;
