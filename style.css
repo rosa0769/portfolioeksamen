@@ -249,6 +249,10 @@ footer p {
 #whitespace {
   padding-top: 2rem;
 }
+
+#whitespace2 {
+  padding-top: 2rem;
+}
 #section3 {
   color: rgb(110, 81, 81);
 
@@ -329,6 +333,9 @@ header a {
   color: white;
   font-family: sans-serif;
 }
+nav a {
+  display: inline-block;
+}
 
 nav #menu {
   gap: 1rem;
@@ -338,6 +345,9 @@ nav #menu {
   list-style: none;
 }
 
+nav li {
+  display: inline-block;
+}
 #menuknap {
   font-family: sans-serif;
   border: none;
@@ -381,23 +391,22 @@ p {
 .col_right2 p {
   font-family: sans-serif;
   color: rgb(216, 189, 189);
-font-size: 2rem;
-text-align: center;
-margin: 0rem;
-padding: 0rem;
-padding-top: 1rem;
-text-align: center;
-letter-spacing: 0.1rem;
-font-size: 0.8rem;
+  font-size: 2rem;
+  text-align: center;
+  margin: 0rem;
+  padding: 0rem;
+  padding-top: 1rem;
+  text-align: center;
+  letter-spacing: 0.1rem;
+  font-size: 0.8rem;
 
-font-family: sans-serif;
-gap: 1rem;
-margin: 0.5rem;
-display: grid;
+  font-family: sans-serif;
+  gap: 1rem;
+  margin: 0.5rem;
+  display: grid;
 
-text-transform: uppercase;
-line-height: 2rem;
-
+  text-transform: uppercase;
+  line-height: 2rem;
 }
 
 h3 {
@@ -620,6 +629,7 @@ h3 {
     margin-right: 10rem;
     background-color: rgb(255, 255, 255);
     border-radius: 1rem;
+    color: rgb(110, 81, 81);
   }
 
   .splash {
