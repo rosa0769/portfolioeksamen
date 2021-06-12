@@ -339,7 +339,7 @@ nav a {
 
 nav #menu {
   gap: 1rem;
-  margin: 0;
+  margin: 0rem;
   padding: 0.5rem;
   transform: none;
   list-style: none;
@@ -372,8 +372,7 @@ nav li {
 }
 
 #menu li a:hover {
-  background: var(--color7);
-  color: var(--color3);
+  color: rgb(114, 91, 91);
   border-radius: 0.2rem;
 }
 
@@ -425,7 +424,9 @@ h3 {
   padding: 1rem;
   padding-top: 1rem;
 }
-
+.dropdown a:hover {
+  color: rgb(114, 91, 91);
+}
 .dropdown {
   position: relative;
   display: inline-block;
