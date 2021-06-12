@@ -1,90 +1,63 @@
 <!DOCTYPE html>
-<html lang="da">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="hamburgermenu.js"></script> 
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
 
+    <link rel="stylesheet" href="style.css" />
+
+  
 
     <title>Tema 2</title>
-</head>
-<body>
-  <header>
+  </head>
 
-    <div class="til_forside">
-        <a href="index.html">
-        <h1>PORTFOLIOEKSAMEN</h1></a></div>
-    <nav>
-        <button id="menuknap">MENU</button>
-        <div id="menu" class="hidden">
-          <ul>
-        <li>
-          <a href="om.html">OM MIG</a>
-        </li>
-        <div class="dropdown">
-          <a href="">TEMAER</a>
-          <div class="dropdown_content">
-              <li><a href="tema2.html">TEMA 2</a></li>
-              <li><a href="tema3.html">TEMA 3</a></li>
-              <li><a href="tema4.html">TEMA 4</a></li>
-              <li><a href="tema5.html">TEMA 5</a></li>
-        </ul>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="index.html">Portfolioeksamen
+        </a>
       </div>
-          </div>
-        </div>
+      <nav>
+        <button id="menuknap">MENU</button>
+        <ul id="menu" class="hidden">
+          <li><a href="om_mig.html">om mig</a></li>
+          <li><a href="tema2.html">tema 2</a></li>
+          <li><a href="om.html#second_section">tema 3</a></li>
+          <li><a href="kursus.html">tema 4</a></li>
+          <li><a href="produktside.html">tema 5</a></li>
+        </ul>
       </nav>
     </header>
     <main>
-
-
-        <section id="section1">
-        <h2>TEMA 2: WEB</h2>
-    </section>
-    <section id="first_section">
-        <div class="section_wrapper">
-          <div class="col_left">
-        <section id="section2">
-        <h4>VIDEN</h4>
-        <p>Eksempler på viden fra tema 2: <br> Gridbaseret layout - 
-          Gestaltlovene -
-         ftp client & ftp upload</p>
-    </section>
-    <section id="whitespace"></section>
-<section id="section3">
-        <h4>FÆRDIGHEDER</h4>
-        <p><b>Grid</b>Jeg anvendte gridbaseret layuot til mit responsive site v2.<b>Gestaltlovene</b>På billede to ses et eksempel fra min tema 2 website, som viser loven om lighed. På billede tre ses et eksempel på loven om forbundethed. Vi kan tydeligt se, at hver kolonne er adskilt fra hinanden - det gør det tydeligt, hvad der er forbundet og altså hører sammen og hvad der ikke gør.<b>FTP</b>Jeg brugte en FTP-client (Filezilla) til at overføre mine filer fra min computer og til mit webdomæne/host.</p>
-    </section>
-    <section id="whitespace2"></section>
-
-        <section id="section4">
-        <h4>KOMPETENCER</h4>
-    <p>På hovedsageligt alle mine websites har jeg benyttet gridlayout</p></section>
-</div>
-<section id="section6">
-    <div class="col_right"> <img src="tema2.png" alt=""></div>
-  <div class="col_right2">
-    <p>Loven om lighed:</p>
-    <img src="lighed.png" alt="">
-    <p>Loven om forbundethed:</p>
-
-    <img src="forbundethed.png" alt="">
-</div>
-</div>
-
-
-  </section>
-</section>
-
-
-
-
-    </main>
-    <footer><p>Facebook: Rosa Sahlholt</p>
-      <p>Instagram: @rosasahlholt</p>
-      <p>Pinterest: @rosasahlholt</p>
-  
-  </footer>
-</body>
+    <script src="js/hambrugermenu.js"></script>
+    <script src="js/login.js"></script>
+  </body>
 </html>
+
+      <section id="third_section">
+        <figure id="third_section_left">
+          <img
+            src="tema2.png"
+            alt="flødeboller"
+          />
+
+        </figure>
+
+        <article id="third_section_right">
+          <h3>Gruppekursus</h3>
+          <p>
+            Gruppekurset er perfekt egnet til polterabend eller firmaudflugt.
+            Her kan I selv være med til at bestemme, hvornår I har lyst til at
+            komme. Det foregår således, at I laver 100 flødeboller i alt og at I
+            til sidst fordeler dem ud på det antal I er.
+          </p>
+          <h3>2.000 kr.</h3>
+
+          <div id="knap">
+            <a href="produktside.html">Tilmeld</a>
+          </div>
+        </article>
+      </section>
+    </main>
