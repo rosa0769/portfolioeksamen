@@ -14,7 +14,7 @@ article {
 }
 img {
   display: block;
-  max-width: 100%;
+  max-width: 90%;
   height: auto;
   border-radius: 1rem;
 }
@@ -162,9 +162,9 @@ nav #menu {
   border-radius: 0.5rem;
   animation: pulse 1s infinite;
   padding: 1rem;
-  
- 
+}
 
+  .forside {text-align: center;
 }
 
 @keyframes pulse {
