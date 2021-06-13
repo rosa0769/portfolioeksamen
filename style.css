@@ -162,6 +162,7 @@ nav #menu {
   border-radius: 0.5rem;
   animation: pulse 1s infinite;
   padding: 1rem;
+  margin: 1rem;
 }
 
 .forside {
@@ -206,10 +207,9 @@ nav #menu {
   header {
     justify-content: center;
   }
-
   #forside {
-    height: 200vw;
-  }
+    height: 150vw;
+  }}
 
   @media (min-width: 700px) {
     nav {
@@ -247,6 +247,10 @@ nav #menu {
     #third_section figure {
       width: 80%;
     }
+
+  #forside {
+    height: 80vw;
+  }
   }
 
   #second_section,
@@ -368,15 +372,16 @@ nav #menu {
     place-content: center;
   }
 
-  /*.col_left img {
-    height: 65vw;
-  }*/
-
   #first_section .col_right {
     display: flex;
     flex-direction: column;
-    /*gap: 3vw;*/
     gap: 2rem;
     padding: 1vw;
+  }
+
+
+@media (max-width: 800px) {
+  #forside {
+    height: 200vw;
   }
 }
