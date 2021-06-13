@@ -164,7 +164,14 @@ nav #menu {
   padding: 1rem;
 }
 
-  .forside {text-align: center;
+.forside {
+  text-align: center;
+}
+
+.forside button p {
+  padding: 0;
+  text-transform: uppercase;
+  font-weight: bolder;
 }
 
 @keyframes pulse {
@@ -203,7 +210,6 @@ nav #menu {
   #forside {
     height: 200vw;
   }
-
 
   @media (min-width: 700px) {
     nav {
