@@ -3,15 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
-html {
-  scroll-behavior: smooth;
-  scroll-padding-top: 5rem;
-  margin: 0rem;
-}
+
 article {
   padding: 3vw;
   text-align: left;
 }
+
 img {
   display: block;
   max-width: 90%;
@@ -76,28 +73,6 @@ a {
   cursor: pointer;
   color: rgb(255, 255, 255);
   border: none;
-}
-
-#knap {
-  background: gray;
-  color: rgb(102, 83, 83);
-  padding: 0.1rem 0.5rem;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  cursor: pointer;
-  border-radius: 0.2rem;
-  margin-bottom: 2rem;
-  margin-top: 0.5rem;
-}
-
-#knap:hover {
-  background: rgb(102, 83, 83);
-  color: rgb(102, 83, 83);
-}
-
-#knap p {
-  color: rgb(102, 83, 83);
 }
 
 header {
@@ -165,6 +140,8 @@ nav #menu {
   margin: 1rem;
 }
 
+.forside button:hover {background-color: rgb(202, 174, 174);}
+
 .forside {
   text-align: center;
 }
@@ -174,6 +151,9 @@ nav #menu {
   text-transform: uppercase;
   font-weight: bolder;
 }
+
+
+
 
 @keyframes pulse {
   0% {
@@ -209,179 +189,180 @@ nav #menu {
   }
   #forside {
     height: 150vw;
-  }}
+  }
+}
 
-  @media (min-width: 700px) {
-    nav {
-      display: flex;
-    }
-
-    nav #menu {
-      flex-basis: 0;
-    }
-
-    header ul {
-      display: flex;
-    }
-    header {
-      justify-content: space-between;
-    }
+@media (min-width: 700px) {
+  nav {
+    display: flex;
   }
 
-  @media (min-width: 996px) {
-    .logo img {
-      width: 100px;
-    }
-    .logo:hover {
-      transform: scale(1.1);
-      transition: 0.5s;
-    }
+  nav #menu {
+    flex-basis: 0;
+  }
 
-    header a {
-      margin: 0.2rem 1rem 0.2rem 1rem;
-    }
+  header ul {
+    display: flex;
+  }
+  header {
+    justify-content: space-between;
+  }
+}
 
-    nav #menu {
-      padding-right: 1rem;
-    }
-    #third_section figure {
-      width: 80%;
-    }
+@media (min-width: 996px) {
+  .logo img {
+    width: 100px;
+  }
+  .logo:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+  }
+
+  header a {
+    margin: 0.2rem 1rem 0.2rem 1rem;
+  }
+
+  nav #menu {
+    padding-right: 1rem;
+  }
+  #third_section figure {
+    width: 80%;
+  }
 
   #forside {
     height: 80vw;
   }
+}
+
+#second_section,
+#third_section {
+  margin-left: 3vw;
+  margin-right: 3vw;
+}
+
+#first_section {
+  background-size: 100%;
+  width: 100%;
+  height: 50vw;
+  background-repeat: no-repeat;
+}
+
+h2 {
+  text-align: center;
+  padding-top: 15vw;
+  color: white;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 100%;
+  letter-spacing: 0.1rem;
+  font-size: 2rem;
+  margin: 0.1rem;
+  font-weight: bolder;
+  padding-bottom: 1vw;
+}
+
+h3 {
+  display: inline-block;
+  width: 100%;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.1rem;
+  font-size: 1.5rem;
+  margin: 0.1rem;
+  color: white;
+}
+
+@media (max-width: 500px) {
+  figure {
+    height: auto;
   }
 
   #second_section,
   #third_section {
-    margin-left: 3vw;
-    margin-right: 3vw;
-  }
-
-  #first_section {
-    background-size: 100%;
-    width: 100%;
-    height: 50vw;
-    background-repeat: no-repeat;
-  }
-
-  h2 {
     text-align: center;
-    padding-top: 15vw;
-    color: white;
-    text-transform: uppercase;
-    display: inline-block;
-    width: 100%;
-    letter-spacing: 0.1rem;
-    font-size: 2rem;
-    margin: 0.1rem;
-    font-weight: bolder;
-    padding-bottom: 1vw;
   }
 
-  h3 {
-    display: inline-block;
-    width: 100%;
-    text-transform: uppercase;
-    text-align: center;
-    letter-spacing: 0.1rem;
-    font-size: 1.5rem;
-    margin: 0.1rem;
-    color: white;
+  #second_section img {
+    width: 70%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4vw;
   }
-
-  @media (max-width: 500px) {
-    figure {
-      height: auto;
-    }
-
-    #second_section,
-    #third_section {
-      text-align: center;
-    }
-
-    #second_section img {
-      width: 70%;
-      height: auto;
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: 4vw;
-    }
-    #third_section img {
-      width: 70%;
-      height: auto;
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: 2rem;
-    }
+  #third_section img {
+    width: 70%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
   }
+}
 
-  @media (min-width: 500px) {
-    #first_section .section_wrapper {
-      grid-template-columns: 1fr 1fr;
-    }
-    #second_section,
-    #third_section {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-template-rows: auto;
-      gap: 1vw;
-      text-align: center;
-      margin-top: 8vw;
-      margin-bottom: 5vw;
-    }
-
-    #third_section_left {
-      grid-column: 2/-1;
-    }
-
-    #third_section_right {
-      margin-right: 0vw;
-      grid-row: 1/2;
-      margin-left: 1vw;
-    }
-
-    #second_section_right {
-      margin-left: 1vw;
-      margin-right: 1vw;
-    }
-
-    #second_section img {
-      width: 80%;
-      height: auto;
-      margin-left: 4vw;
-      margin-top: 5vw;
-    }
-    #third_section img {
-      width: 80%;
-      height: auto;
-      margin-top: 3.5vw;
-      margin-left: 5vw;
-    }
-  }
-
+@media (min-width: 500px) {
   #first_section .section_wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+  #second_section,
+  #third_section {
     display: grid;
-    gap: 4vw;
-    margin: 7vw;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 1vw;
+    text-align: center;
+    margin-top: 8vw;
+    margin-bottom: 5vw;
   }
 
-  .col_left {
-    display: grid;
-    place-content: center;
+  #third_section_left {
+    grid-column: 2/-1;
   }
 
-  #first_section .col_right {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    padding: 1vw;
+  #third_section_right {
+    margin-right: 0vw;
+    grid-row: 1/2;
+    margin-left: 1vw;
   }
 
+  #second_section_right {
+    margin-left: 1vw;
+    margin-right: 1vw;
+  }
+
+  #second_section img {
+    width: 80%;
+    height: auto;
+    margin-left: 4vw;
+    margin-top: 5vw;
+  }
+  #third_section img {
+    width: 80%;
+    height: auto;
+    margin-top: 3.5vw;
+    margin-left: 5vw;
+  }
+}
+
+#first_section .section_wrapper {
+  display: grid;
+  gap: 4vw;
+  margin: 7vw;
+}
+
+.col_left {
+  display: grid;
+  place-content: center;
+}
+
+#first_section .col_right {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1vw;
+}
 
 @media (max-width: 800px) {
   #forside {
     height: 200vw;
   }
 }
+
