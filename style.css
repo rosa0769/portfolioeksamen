@@ -20,8 +20,6 @@ body {
   font-size: 16px;
   margin: 0rem;
   background-image: url(marble.jpeg);
-  background-size: cover;
-
   overflow-wrap: break-word;
   hyphens: auto;
   line-height: 1.5;
@@ -93,13 +91,27 @@ a {
   color: rgb(255, 255, 255);
   border: none;
 }
-#tema3_link {
+#tema3_link_prototype {
   color: rgb(85, 74, 74);
   font-family: sans-serif;
   text-transform: lowercase;
   letter-spacing: 0.1rem;
   font-weight: lighter;
 }
+#tema3_link_pitch {
+    color: rgb(85, 74, 74);
+    font-family: sans-serif;
+    text-transform: lowercase;
+    letter-spacing: 0.1rem;
+    font-weight: lighter;
+  }
+  #tema4_link_spil{
+    color: rgb(85, 74, 74);
+    font-family: sans-serif;
+    text-transform: lowercase;
+    letter-spacing: 0.1rem;
+    font-weight: lighter;
+  }
 
 header {
   position: sticky;
