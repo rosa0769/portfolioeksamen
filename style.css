@@ -360,9 +360,28 @@ h3 {
   padding: 1vw;
 }
 
+
 @media (max-width: 800px) {
   #forside {
     height: 200vw;
   }
+
+  nav.active {
+    right: 0;
+  }
 }
+
+i.fas.fa-bars {
+    position: absolute;
+    right: 25px;
+    top: 25px;
+    font-size: 25px;
+    display: none;
+  }
+  
+  i.fas.fa-times {
+    display: none;
+  }
+
+  
 
