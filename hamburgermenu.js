@@ -14,25 +14,11 @@ function toggleMenu() {
   let erSkjult = document.querySelector('#menu').classList.contains('hidden');
 
   if (erSkjult == true) {
-    document.querySelector('#menuknap').textContent = 'Menu';
+    document.querySelector('#menuknap').textContent = 'MENU';
   } else {
-    document.querySelector('#menuknap').textContent = 'Close';
+    document.querySelector('#menuknap').textContent = 'CLOSE';
   }
 }
 
 let prevScrollpos = window.pageYOffset;
 
-// Skjult menu ved scroll
-
-// window.onscroll = function () {
-//   console.log("Menu forsvinder");
-//   let currentScrollPos = window.pageYOffset;
-//   if (prevScrollpos > currentScrollPos) {
-//     document.querySelector("header").style.top = "0";
-//     document.querySelector("main").style = "margin-top: 0px";
-//   } else {
-//     document.querySelector("header").style = "top: -127px;";
-//     document.querySelector("main").style = "margin-top: -127px";
-//   }
-//   prevScrollpos = currentScrollPos;
-// };
