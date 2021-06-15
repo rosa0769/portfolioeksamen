@@ -43,7 +43,7 @@ h1 {
 h2 {
   font-family: sans-serif;
   text-align: center;
-  padding-top: 15vw;
+  padding-top: 10vw;
   color: rgb(131, 112, 112);
   text-transform: uppercase;
   display: inline-block;
@@ -69,9 +69,10 @@ h3 {
 
 h4 {
   font-family: sans-serif;
-  font-size: 1.5vw;
+  font-size: 1.5rem;
   font-weight: lighter;
   color: rgb(90, 77, 77);
+  text-align: center;
 }
 
 p {
@@ -149,6 +150,14 @@ a {
   letter-spacing: 0.1rem;
   font-weight: lighter;
 }
+
+#tema5_pilotprojekt_link {
+  color: rgb(85, 74, 74);
+  font-family: sans-serif;
+  text-transform: lowercase;
+  letter-spacing: 0.1rem;
+  font-weight: lighter;
+}
 header {
   position: sticky;
   top: 0;
@@ -199,7 +208,6 @@ nav #menu {
   white-space: nowrap;
 }
 
-
 .forside p {
   text-align: center;
   background-color: rgb(133, 121, 121);
@@ -215,19 +223,22 @@ nav #menu {
 }
 
 .forside p:hover {
-    background-color: rgb(196, 171, 171);
+  background-color: rgb(196, 171, 171);
 }
 
-
+.forside {
+  display: flex;
+  justify-content: center;
+}
 
 .hidden {
   display: none;
 }
 
 #tema2_overskrift {
-  margin: 0rem;
-  padding: 0rem;
-  padding-top: 6rem;
+  margin: 0vw;
+  padding: 0vw;
+  padding-top: 6vw;
   font-size: 2.5rem;
   letter-spacing: 0.1rem;
 }
@@ -335,7 +346,8 @@ nav #menu {
 }
 
 #second_section,
-#third_section {
+#third_section,
+#fourth_section {
   margin-left: 3vw;
   margin-right: 3vw;
 }
@@ -346,11 +358,13 @@ nav #menu {
   }
 
   #second_section,
-  #third_section {
+  #third_section,
+  #fourth_section {
     text-align: center;
   }
 
-  #third_section img {
+  #third_section,
+  #fourth_section img {
     width: 70%;
     height: auto;
     margin-left: auto;
@@ -371,7 +385,8 @@ nav #menu {
 
 @media (min-width: 500px) {
   #second_section,
-  #third_section {
+  #third_section,
+  #fourth_section {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
@@ -379,16 +394,6 @@ nav #menu {
     text-align: center;
     margin-top: 4vw;
     margin-bottom: 5vw;
-  }
-
-  #third_section_left {
-    grid-column: 2/-1;
-  }
-
-  #third_section_right {
-    margin-right: 0vw;
-    grid-row: 1/2;
-    margin-left: 1vw;
   }
 
   #second_section_right {
@@ -402,10 +407,37 @@ nav #menu {
     margin-left: 4vw;
     margin-top: 5vw;
   }
+
+  #third_section_left {
+    grid-column: 2/-1;
+  }
+
+  #third_section_right {
+    margin-right: 0vw;
+    grid-row: 1/2;
+    margin-left: 1vw;
+  }
+
   #third_section img {
     width: 80%;
     height: auto;
-    margin-top: 3.5vw;
+    margin-top: 5vw;
+    margin-left: 5vw;
+  }
+
+  #fourth_section_left {
+    grid-column: 2/-1;
+  }
+
+  #fourth_section_right {
+    margin-right: 0vw;
+    grid-row: 1/2;
+    margin-left: 1vw;
+  }
+  #fourth_section img {
+    width: 80%;
+    height: auto;
+    margin-top: 5vw;
     margin-left: 5vw;
   }
 }
@@ -416,7 +448,7 @@ nav #menu {
   margin: 5vw;
 }
 
-.col_left {
+#first_section .col_left {
   display: grid;
   place-content: center;
 }
@@ -424,5 +456,4 @@ nav #menu {
 #first_section .col_right {
   display: flex;
   flex-direction: column;
-  padding: 1vw;
 }
