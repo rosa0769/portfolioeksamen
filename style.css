@@ -43,7 +43,7 @@ h1 {
 h2 {
   font-family: sans-serif;
   text-align: center;
-  padding-top: 10vw;
+  padding-top: 14vw;
   color: rgb(131, 112, 112);
   text-transform: uppercase;
   display: inline-block;
@@ -52,7 +52,6 @@ h2 {
   font-size: 2rem;
   margin: 0.1rem;
   font-weight: bolder;
-  padding-bottom: 1vw;
 }
 
 h3 {
@@ -100,58 +99,14 @@ a {
   border: none;
 }
 
-#tema2_responsivesite {
-  color: rgb(85, 74, 74);
-  font-family: sans-serif;
-  text-transform: lowercase;
-  letter-spacing: 0.1rem;
-  font-weight: lighter;
-}
-#tema2_styletile {
-  color: rgb(85, 74, 74);
-  font-family: sans-serif;
-  text-transform: lowercase;
-  letter-spacing: 0.1rem;
-  font-weight: lighter;
-}
-#tema3_link_prototype {
-  color: rgb(85, 74, 74);
-  font-family: sans-serif;
-  text-transform: lowercase;
-  letter-spacing: 0.1rem;
-  font-weight: lighter;
-}
-#tema3_link_pitch {
-  color: rgb(85, 74, 74);
-  font-family: sans-serif;
-  text-transform: lowercase;
-  letter-spacing: 0.1rem;
-  font-weight: lighter;
-}
-#tema4_link_spil {
-  color: rgb(85, 74, 74);
-  font-family: sans-serif;
-  text-transform: lowercase;
-  letter-spacing: 0.1rem;
-  font-weight: lighter;
-}
-
-#tema4_dokumentationssite {
-  color: rgb(85, 74, 74);
-  font-family: sans-serif;
-  text-transform: lowercase;
-  letter-spacing: 0.1rem;
-  font-weight: lighter;
-}
+#tema2_responsivesite,
+#tema2_styletile,
+#tema3_link_prototype,
+#tema3_link_pitch,
+#tema4_link_spil,
+#tema4_dokumentationssite,
+#tema5_pilotprojekt_link,
 #tema5_redesign {
-  color: rgb(85, 74, 74);
-  font-family: sans-serif;
-  text-transform: lowercase;
-  letter-spacing: 0.1rem;
-  font-weight: lighter;
-}
-
-#tema5_pilotprojekt_link {
   color: rgb(85, 74, 74);
   font-family: sans-serif;
   text-transform: lowercase;
@@ -250,6 +205,11 @@ nav #menu {
   letter-spacing: 0.1rem;
 }
 
+#om_mig_overskrift {
+  font-size: 2rem;
+  padding-top: 5vw;
+}
+
 #menuknap {
   font-family: sans-serif;
   border: none;
@@ -324,6 +284,12 @@ nav #menu {
   }
 }
 
+@media (max-width: 800px) {
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
 @media (min-width: 996px) {
   .logo img {
     width: 100px;
@@ -341,7 +307,7 @@ nav #menu {
   }
 
   #forside {
-    height: 80vw;
+    height: auto;
   }
 }
 
@@ -372,6 +338,7 @@ nav #menu {
     margin-top: 2vw;
     margin-bottom: 2vw;
   }
+
   p {
     padding: 5vw;
     margin: 4vw;
@@ -380,6 +347,10 @@ nav #menu {
   #forside {
     background-image: url(marble.png);
     background-size: cover;
+  }
+
+  h2 {
+    font-size: 1.5rem;
   }
 }
 
@@ -392,7 +363,7 @@ nav #menu {
     grid-template-rows: auto;
     gap: 1vw;
     text-align: center;
-    margin-top: 4vw;
+    margin-top: 1vw;
     margin-bottom: 5vw;
   }
 
@@ -423,6 +394,7 @@ nav #menu {
     height: auto;
     margin-top: 5vw;
     margin-left: 5vw;
+    margin-bottom: 2vw;
   }
 
   #fourth_section_left {
