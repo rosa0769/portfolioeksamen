@@ -80,7 +80,7 @@ p {
   background-color: rgb(209, 198, 198);
   border-radius: 2rem;
   padding: 2vw;
-  margin: 0.5vw;
+  margin: 2vw;
 }
 
 a {
@@ -99,13 +99,12 @@ a {
   letter-spacing: 0.1rem;
   font-weight: lighter;
 }
-#tema2_styletile{
-    color: rgb(85, 74, 74);
-    font-family: sans-serif;
-    text-transform: lowercase;
-    letter-spacing: 0.1rem;
-    font-weight: lighter;
-
+#tema2_styletile {
+  color: rgb(85, 74, 74);
+  font-family: sans-serif;
+  text-transform: lowercase;
+  letter-spacing: 0.1rem;
+  font-weight: lighter;
 }
 #tema3_link_prototype {
   color: rgb(85, 74, 74);
@@ -180,7 +179,7 @@ nav #menu {
   transform: none;
   list-style: none;
 
-  margin-top: 0.5rem;
+  margin-top: 0.5vw;
   flex-basis: 100%;
 }
 
@@ -193,18 +192,12 @@ nav #menu {
   white-space: nowrap;
 }
 
-#forside {
-  background-image: url(marble.jpeg);
-  background-size: cover;
-}
-
 .forside button {
   background-color: rgb(133, 121, 121);
   border: none;
   border-radius: 0.5rem;
   animation: pulse 1s infinite;
-  padding: 1rem;
-  margin: 1rem;
+  padding: none;
 }
 
 .forside button:hover {
@@ -284,9 +277,6 @@ nav #menu {
   h2 {
     font-size: 3vw;
   }
-  #forside {
-    height: 100vw;
-  }
 }
 
 @media (min-width: 700px) {
@@ -351,19 +341,22 @@ nav #menu {
     text-align: center;
   }
 
-  #second_section img {
-    width: 70%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 4vw;
-  }
   #third_section img {
     width: 70%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 2rem;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+  }
+  p {
+    padding: 5vw;
+    margin: 4vw;
+  }
+
+  #forside {
+    background-image: url(marble.png);
+    background-size: cover;
   }
 }
 
