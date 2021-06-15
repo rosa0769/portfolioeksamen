@@ -1,8 +1,9 @@
-'use strict';
 
 window.addEventListener('load', sidenVises);
 
 function sidenVises() {
+    'use strict';
+
   console.log('sidenVises');
   document.querySelector('#menuknap').addEventListener('click', toggleMenu);
 }
@@ -20,5 +21,4 @@ function toggleMenu() {
   }
 }
 
-let prevScrollpos = window.pageYOffset;
 
