@@ -11,7 +11,7 @@ article {
 
 img {
   display: block;
-  max-width: 90%;
+  max-width: 100%;
   height: auto;
   border-radius: 1rem;
 }
@@ -268,6 +268,7 @@ nav #menu {
 @media (min-width: 400px) {
   p {
     font-size: 0.8rem;
+    padding: 2.5vw;
   }
 
   h3 {
@@ -280,6 +281,11 @@ nav #menu {
 }
 
 @media (min-width: 700px) {
+
+    #first_section .section_wrapper {
+        grid-template-columns: 1fr 1fr;
+      }
+    
   nav {
     display: flex;
   }
@@ -361,9 +367,7 @@ nav #menu {
 }
 
 @media (min-width: 500px) {
-  #first_section .section_wrapper {
-    grid-template-columns: 1fr 1fr;
-  }
+
 
   #second_section,
   #third_section {
@@ -408,7 +412,7 @@ nav #menu {
 #first_section .section_wrapper {
   display: grid;
   gap: 4vw;
-  margin: 7vw;
+  margin: 5vw;
 }
 
 .col_left {
