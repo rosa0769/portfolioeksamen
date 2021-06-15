@@ -113,6 +113,21 @@ a {
     font-weight: lighter;
   }
 
+  #tema4_dokumentationssite{
+    color: rgb(85, 74, 74);
+    font-family: sans-serif;
+    text-transform: lowercase;
+    letter-spacing: 0.1rem;
+    font-weight: lighter;
+  }
+#tema5_redesign{
+    color: rgb(85, 74, 74);
+    font-family: sans-serif;
+    text-transform: lowercase;
+    letter-spacing: 0.1rem;
+    font-weight: lighter;
+
+}
 header {
   position: sticky;
   top: 0;
