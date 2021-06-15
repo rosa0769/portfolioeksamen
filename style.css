@@ -16,6 +16,13 @@ img {
   border-radius: 1rem;
 }
 
+.logo img {
+  min-width: 4rem;
+  max-width: 4rem;
+  height: auto;
+  border-radius: 50%;
+}
+
 body {
   font-size: 16px;
   margin: 0rem;
@@ -192,29 +199,26 @@ nav #menu {
   white-space: nowrap;
 }
 
-.forside button {
+
+.forside p {
+  text-align: center;
   background-color: rgb(133, 121, 121);
+  color: white;
   border: none;
-  border-radius: 0.5rem;
+  border-radius: 1rem;
   animation: pulse 1s infinite;
   padding: none;
-}
-
-.forside button:hover {
-  background-color: rgb(202, 174, 174);
-}
-
-.forside {
-  text-align: center;
-}
-
-.forside button p {
-  padding: 0;
-  text-transform: uppercase;
   font-weight: bolder;
-  background-color: transparent;
-  color: white;
+  text-transform: uppercase;
+  min-width: 10rem;
+  max-width: 15rem;
 }
+
+.forside p:hover {
+    background-color: rgb(196, 171, 171);
+}
+
+
 
 .hidden {
   display: none;
@@ -281,11 +285,10 @@ nav #menu {
 }
 
 @media (min-width: 700px) {
+  #first_section .section_wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
 
-    #first_section .section_wrapper {
-        grid-template-columns: 1fr 1fr;
-      }
-    
   nav {
     display: flex;
   }
@@ -367,8 +370,6 @@ nav #menu {
 }
 
 @media (min-width: 500px) {
-
-
   #second_section,
   #third_section {
     display: grid;
